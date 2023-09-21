@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci series and Dimensional Shape</title>
+</head>
+<body>
+    <div id="fibonacci1">
+        <h1>Counting Fibonacci Series and Dimensional Shape</h1>
+    </div>
+    <div id="fibonacci2">
+        <h2>Count Fibonacci Series </h2>
+        <form>
+            <label for="insertFibonacci">Insert number of terms :</label><br>
+            <input type = "number" id="insertFibonacci"><br>
+            <button type = "button" >Submit</button><br>
+        </form>
+        <p id="resultFibonacci">Result :</p>
+    </div>
+    <div id="shapeChoose"> 
+        <h2>Count Volume of Dimensional Shape</h2>   
+            <form>
+                <label for="volumeBuildingType">Choose Shape Type :</label><br>
+                <select name="shapeType"id="shapeTypeInput">
+                    <option value="cube">Cube</option>
+                    <option value="cuboid">Cuboid</option>
+                    <option value="ball">Ball</option>
+                    <option value="pyramid">Pyramid</option>
+                    <option value="cylinder">Cylinder</option>
+                    <option value="cone">Cone</option>
+                </select>
+            </form> 
+    </div>
+    <div id="cubeShape">
+        <label for="cubeSide"> Insert length of Cube Side :</label>
+        <form id="formCube">
+            <input type="number" id="cubeSide"><br>
+            <button type="submit" >Calculate </button>
+        </form>
+        <p>Result: <span id="resultCube"></span></p>
+    </div>
+    <div id="cuboidShape">
+            <form id="formBlock">
+                <label for="cuboidLong">Insert Long of Cuboid :</label><br>
+                    <input type="number" id="cuboidLong"><br>
+                <label for="cuboidWidth">Insert Width of Cuboid :</label><br>
+                    <input type="number" id="cuboidWidth"><br>
+                <label for="cuboidHeight">Insert Height of Cuboid :</label><br>
+                    <input type="number" id="cuboidHeight"><br>
+                <button type="submit" >Calculate </button>
+        </form>
+        <p>Result: <span id="resultCuboid"></span></p>
+    </div>
+    <div id="ballShape">
+        <form id="formBall">
+            <label for="radiusBall">Insert Ball Radius :</label><br>
+                <input type="number" id="radiusBall"><br>
+                <button type="submit" >Calculate </button>
+        </form>
+        <p>Result: <span id="resultBall"></span></p>
+    </div>
+    <div id="cylinderShape" >
+        <form>
+            <label for="cylinderRadius">Insert Cylinder Radius :</label><br>
+                <input type="number" id="cylinderRadius"><br>
+            <label for="cylinderHeight">Insert Cylinder Height :</label><br>
+                <input type="number" id="cylinderHeight"><br>
+                <button type="submit" >Calculate </button>
+        </form>
+        <p>Result: <span id="resultCylinder"></span></p>
+    </div>
+    <div id="coneShape" >
+        <form>
+            <label for="coneRadius">Insert Cone Radius :</label><br>
+                <input type="number" id="radiusCone"><br>
+            <label for="coneHeight">Insert Cone Height :</label><br>
+                <input type="number" id="coneHeight"><br>
+                <button type="submit" >Calculate </button>
+        </form>
+    </div>
+    <p>Result: <span id="resultCylinder"></span></p>
+    <script src="index.js"></script>
+</body>
+
+</html>
